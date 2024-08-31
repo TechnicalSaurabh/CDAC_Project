@@ -1,0 +1,68 @@
+.pg-form {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pg-form h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.pg-form input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.pg-form .form-group {
+  margin: 15px 0;
+}
+
+.pg-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.pg-form input[type="file"] {
+  display: block;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.pg-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pg-form button:hover {
+  background-color: #0056b3;
+}
+
+.pg-form p {
+  margin: 10px 0;
+  text-align: center;
+  color: #333;
+}
+
+.pg-form p[style="color: red;"] {
+  color: red;
+}

@@ -1,0 +1,68 @@
+/* AdminHeader.css */
+
+.admin-header {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 1rem;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .menu-button {
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+   
+  }
+  
+  .menu-button:focus {
+    outline: none;
+  }
+  
+  .admin-title {
+    margin: 0;
+  }
+  
+  .admin-nav {
+    position: fixed;
+    top: 0;
+    right: -250px; /* Initially off-screen */
+    width: 250px;
+    height: 100%;
+    background-color: #343a40;
+    padding-top: 2rem;
+    transition: right 0.3s ease; /* Smooth transition */
+    z-index: 1000;
+  }
+  
+  .admin-nav.open {
+    right: 0; /* Slide in from the right */
+  }
+  
+  .admin-nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+  }
+  
+  .admin-nav-item {
+    margin: 1rem 0;
+  }
+  
+  .admin-nav-item a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    display: block;
+  }
+  
+  .admin-nav-item a:hover {
+    background-color: #495057;
+  }
+  

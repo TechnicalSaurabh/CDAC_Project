@@ -1,0 +1,35 @@
+.room-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .image-gallery {
+    margin-bottom: 15px;
+  }
+  
+  .slick-slide {
+    padding: 5px;
+  }
+  
+  .slick-prev, .slick-next {
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+  }
+  
+  .no-image-placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    color: #888;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  

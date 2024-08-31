@@ -1,0 +1,50 @@
+.pg-manage {
+    padding: 20px;
+  }
+  
+  .pg-form {
+    margin-bottom: 20px;
+  }
+  
+  .pg-form input {
+    margin-right: 10px;
+    padding: 5px;
+    width: 200px;
+  }
+  
+  .pg-form button {
+    padding: 5px 10px;
+  }
+  
+  .pg-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .pg-table th,
+  .pg-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .pg-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .pg-table td button {
+    margin-right: 5px;
+    padding: 5px 10px;
+  }
+  .register-button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  

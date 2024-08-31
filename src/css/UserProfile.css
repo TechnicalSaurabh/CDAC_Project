@@ -1,0 +1,83 @@
+/* UserProfile.css */
+
+.user-profile-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-profile-container h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+    font-weight: 700;
+  }
+  
+  .user-profile-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .user-profile-form div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .user-profile-form label {
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 5px;
+    font-family: 'Arial', sans-serif;
+    font-weight: 500;
+  }
+  
+  .user-profile-form input {
+    padding: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    transition: border-color 0.3s ease;
+  }
+  
+  .user-profile-form input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .user-profile-form button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: center;
+    width: 50%;
+  }
+  
+  .user-profile-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  @media (max-width: 768px) {
+    .user-profile-container {
+      padding: 15px;
+      margin: 20px;
+    }
+  
+    .user-profile-form button {
+      width: 100%;
+    }
+  }
+  

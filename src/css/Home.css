@@ -1,0 +1,9 @@
+
+.header-background {
+  background-image: url('D:\Changes today code 12\myreact-app\public\Images\paying-guest-houses-interior-desing-500x500.webp'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  height: 300px; /* Adjust the height as needed */
+  position: relative;
+  margin-top: 56px; /* Adjust to align with navbar height */
+}

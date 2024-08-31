@@ -1,0 +1,77 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Light background for contrast */
+}
+
+/* Services Section */
+.Services {
+    padding: 40px 20px;
+    margin-top: 30px; /* Add top margin to create space */
+    background-color: #ffffff; /* White background for the section */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Title Styles */
+.name h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Card Styles */
+.card {
+    border: none; /* Remove default border */
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden; /* Ensures child elements respect border radius */
+    transition: transform 0.2s; /* Smooth scaling effect */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Slightly enlarge card on hover */
+}
+
+.card-img-top {
+    height: 200px; /* Fixed height for images */
+    object-fit: cover; /* Ensures images cover the area */
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    color: #007bff; /* Primary color for titles */
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555; /* Darker gray for text */
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .col-xl-2 {
+        flex: 0 0 33.333%; /* Adjust to 3 columns on medium screens */
+        max-width: 33.333%;
+    }
+}
+
+@media (max-width: 768px) {
+    .col-xl-2 {
+        flex: 0 0 50%; /* Adjust to 2 columns on smaller screens */
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 576px) {
+    .col-xl-2 {
+        flex: 0 0 100%; /* Stack cards on small screens */
+        max-width: 100%;
+    }
+}
